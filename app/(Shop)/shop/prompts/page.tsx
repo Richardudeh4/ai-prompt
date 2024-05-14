@@ -1,6 +1,6 @@
 import ShopSidebar from '@/components/Shop/shop-sidebar'
 import React from 'react'
-import AllPrompts from '@/components/Prompts/all-prompts'
+// import AllPrompts from '@/components/Prompts/all-prompts'
 type Props = {}
 const Page = (props:Props) => {
   return (
@@ -9,7 +9,7 @@ const Page = (props:Props) => {
             <ShopSidebar active={2}/>
         </div>
         <div className='md:w-[80%] 2xl:w-[83%] p-5'>
-            <AllPrompts/>
+            {/* <AllPrompts /> */}
         </div>
     </div>
   )
